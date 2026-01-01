@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking Cancellation Analysis
+# Hotel Booking Cancellation Analysis
 
 ## Business Problem
 The hotel industry faces a significant challenge with high cancellation rates, which leads to uncertain revenue forecasting and operational inefficiencies. 
@@ -9,7 +9,7 @@ The hotel industry faces a significant challenge with high cancellation rates, w
 ![Vista Previa del Dashboard](Dashboard_Hotel.png)
 *(The above shows a static view. Download the .pbix file to interact.)*
 
-## 🔍 Key Findings & Insights
+## Key Findings & Insights
 
 ### 1. The "Lead Time" Risk
 * **Insight:** Booking lead time is directly correlated with cancellation risk.
@@ -26,13 +26,13 @@ The hotel industry faces a significant challenge with high cancellation rates, w
 * **Deep Dive:** A SQL drill-down revealed that 'Groups' with 'Non-Refundable' deposits have a **99.32% cancellation rate**.
 * **Conclusion:** This indicates a data quality or process issue where tentative group blocks are likely recorded as 'Non-Refundable' before payment is confirmed, skewing the hotel's demand forecasting.
 
-## 🛠️ Technical Skills Demonstrated
+## Technical Skills Demonstrated
 * **SQL (BigQuery):** * `CASE` statements to categorize continuous variables (Lead Time buckets).
     * `GROUP BY` and Aggregation functions (`COUNT`, `SUM`, `AVG`) for summary statistics.
     * Data cleaning and anomaly detection.
 * **Business Intelligence:** Translating raw data metrics (ADR, Cancellation %) into actionable business recommendations.
 
-## 📊 Recommendations
+## Recommendations
 Based on the analysis, the following actions are recommended to the Revenue Management team:
 1.  **Dynamic Cancellation Policy:** Remove "Free Cancellation" options for bookings made >90 days in advance.
 2.  **Process Audit:** Review the sales protocol for the 'Groups' segment to prevent unpaid blocks from being categorized as 'Non-Refundable' in the PMS.
