@@ -35,4 +35,4 @@ Based on the analysis, the following actions are recommended to the Revenue Mana
 3.  **Value Retention:** Offer value-added incentives (e.g., free breakfast) instead of price discounts for high-ADR bookings to reduce the likelihood of cancellation due to price shopping.
 
 ---
-*Author: [Tu Nombre]* *Tools: SQL, BigQuery*
+*Author: Daniel Espinosa* *Tools: SQL, BigQuery*
