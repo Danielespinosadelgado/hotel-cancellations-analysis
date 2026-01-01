@@ -5,6 +5,10 @@ The hotel industry faces a significant challenge with high cancellation rates, w
 
 **Objective:** This project analyzes a dataset of 119,000+ hotel bookings to identify key predictors of cancellations and quantify the financial impact ("Revenue at Risk") to propose data-driven strategies for mitigation.
 
+## Dashboard Preview
+![Vista Previa del Dashboard](Dashboard_Hotel.png)
+*(The above shows a static view. Download the .pbix file to interact.)*
+
 ## 🔍 Key Findings & Insights
 
 ### 1. The "Lead Time" Risk
